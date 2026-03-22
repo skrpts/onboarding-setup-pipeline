@@ -37,7 +37,9 @@ Personalised onboarding pack containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.role}}` | Yes | The job title or role to generate onboarding materials for | Senior Backend Engineer |
+| `{{input.topics}}` | Yes | Key topics or skills to cover | "Go, microservices, CI/CD, database design" |
+| `{{input.count}}` | No | Number of interview questions to generate (defaults to 10) | 15 |
 
 ## Outputs
 
@@ -64,6 +66,8 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Role: Senior Backend Engineer
+Topics: Go, microservices, CI/CD, database design
+Count: 10
 ```
 

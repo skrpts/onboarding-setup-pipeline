@@ -15,4 +15,4 @@ Generates tailored technical interview questions for a specified role, covering 
 
 ## Prompt
 
-Generate {{count}} technical interview questions for a {{role}} position. Focus on: {{topics}}. Include expected answers.
+Generate {{input.count}} technical interview questions for a {{input.role}} position. Focus on: {{input.topics}}. Include expected answers.
