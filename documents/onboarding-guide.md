@@ -3,7 +3,7 @@ type: document
 id: onboarding-guide
 title: Onboarding Guide
 description: "Step-by-step guide for onboarding new team members"
-tags: [Production, planning:team, writing:documentation]
+tags: [Production, Planning, Documentation]
 connections: []
 ---
 

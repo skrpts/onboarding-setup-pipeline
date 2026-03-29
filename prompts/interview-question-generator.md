@@ -3,7 +3,7 @@ type: prompt
 id: interview-question-generator
 title: Interview Question Generator
 description: "Task prompt for generating role-specific technical interview questions"
-tags: [Production, planning:team, design:research]
+tags: [Production, Planning, Strategy]
 connections:
   - target: markdown-formatting
     type: derived_from
