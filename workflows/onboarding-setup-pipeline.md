@@ -3,7 +3,7 @@ type: workflow
 id: onboarding-setup-pipeline
 title: Onboarding Setup Pipeline
 description: "Generates personalised onboarding materials and interview questions"
-tags: [Production]
+tags: [Production, planning:team, design:research]
 connections:
   - target: markdown-formatting
     type: uses
