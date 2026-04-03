@@ -5,14 +5,14 @@ title: Onboarding Setup Pipeline
 description: "Generates personalised onboarding materials and interview questions"
 tags: [Production, Audience, Planning, Strategy]
 connections:
-  - target: markdown-formatting
-    type: uses
   - target: interview-question-generator
     type: uses
   - target: llm-service
     type: runs_on
   - target: onboarding-guide
     type: references
+  - target: format-conversion
+    type: uses
 ---
 
 ## Overview
