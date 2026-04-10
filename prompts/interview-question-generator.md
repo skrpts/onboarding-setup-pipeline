@@ -5,7 +5,7 @@ title: Interview Question Generator
 description: "Task prompt for generating role-specific technical interview questions"
 tags: [Production, Planning, Strategy]
 connections:
-  - target: markdown-formatting
+  - target: format-conversion
     type: derived_from
 ---
 
