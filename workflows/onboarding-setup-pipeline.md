@@ -11,6 +11,9 @@ connections:
     type: references
   - target: format-conversion
     type: uses
+output_step: "format-conversion"
+composite_steps:
+  - "format-conversion"
 execution:
   - skill: "format-conversion"
     step_type: "content"
