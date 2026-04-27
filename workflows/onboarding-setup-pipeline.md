@@ -16,6 +16,7 @@ composite_steps:
   - "format-conversion"
 execution:
   - skill: "format-conversion"
+    prompt: "interview-question-generator"
     step_type: "content"
 ---
 
