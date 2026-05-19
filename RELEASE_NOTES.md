@@ -1,4 +1,4 @@
 # Release Notes
 
-## v1.1.12
-Release notes unavailable for this version.
+## v1.1.14
+Pipeline corrected: step type changed from content to generation to match the interview question generation prompt.
